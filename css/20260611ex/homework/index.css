@@ -1,0 +1,63 @@
+*{
+    margin: 0 0 0 0;    /* 테두리 외부 여백  ex)10px  값이 4개면 위부터 시계방향, 값이 2개면 위아래와 좌우, 값이 1개면 공통적용*/
+    padding: 0 0 0 0;   /* 테두리 내부 여백*/
+
+}
+
+a{
+    color:#000000;   /*검은색*/
+    text-decoration: none;   /*밑줄 제거*/
+}
+
+a:hover{
+
+    text-decoration: none;  /*링크에 마우스올릴때 밑줄제거*/
+}
+
+#container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#container div.sidebar{
+    width: 290px;   /*박스너비 800픽셀*/
+    border: 1px solid #cccccc;   /*테두리 연회색 실선*/
+    border-radius: 10px;  /*테두리 모서리 반경*/
+    margin: 50px 20px 0 20px;
+    box-shadow: 3px 3px 3px rgba(200, 200, 200, .5);
+    padding: 20px 20px;
+}
+#wrap{
+    width: 800px;   /*박스너비 800픽셀*/
+    border: 1px solid #cccccc;   /*테두리 연회색 실선*/
+    border-radius: 10px;  /*테두리 모서리 반경*/
+    margin: 50px auto auto 0;
+    box-shadow: 3px 3px 3px rgba(200, 200, 200, .5);
+    padding: 80px 50px;
+}
+
+#wrap div.to {
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+#wrap div.head {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;  /*가운데 정렬*/
+    margin-bottom: 20px;
+    border-bottom: double #dadada;  /*이중선 긋기*/
+    padding-bottom: 10px;
+}
+
+#wrap div.body{
+    margin: 20px 0;
+}
+
+#wrap div.from{
+    font-style: italic;
+    text-align: right;
+    margin-top: 50px;
+}
+
